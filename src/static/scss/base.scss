@@ -1,0 +1,236 @@
+*,:after,:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+blockquote,body,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul {
+    margin: 0;
+    padding: 0
+}
+body {
+    background: #fff;
+    color: #494f54;
+    font-family: Arial,Microsoft YaHei,"\9ED1\4F53","\5B8B\4F53",sans-serif
+}
+body,caption,td,th {
+    font-size: 14px
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+    font-size: 100%
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style: normal;
+    font-weight: 400
+}
+a {
+    color: #494f54
+}
+a,a:hover {
+    text-decoration: none
+}
+a:hover {
+    color: #fed314;
+    outline: none;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent
+}
+img {
+    border: none;
+    vertical-align: middle
+}
+li,ol,ul {
+    list-style: none
+}
+button,input,select,textarea {
+    outline: none;
+    border: 0;
+    background: none;
+    text-indent: 0
+}
+button,input,textarea {
+    -webkit-appearance: none
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #fff inset!important;
+}
+::-moz-placeholder {
+    color: #494f54!important
+}
+::-webkit-input-placeholder {
+    color: #494f54!important
+}
+:-ms-input-placeholder {
+    color: #494f54!important
+}
+table {
+    border-collapse: collapse
+}
+html {
+    overflow-y: scroll
+}
+.clear {
+    clear: both
+}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0
+}
+.clearfix {
+    zoom:1
+}
+.fl {
+    float: left
+}
+.fr {
+    float: right
+}
+.tl {
+    text-align: left
+}
+.tc {
+    text-align: center
+}
+.tr {
+    text-align: right
+}
+.pr {
+    position: relative
+}
+.po {
+    position: absolute
+}
+.hide {
+    display: none
+}
+.show {
+    display: block
+}
+.section { 
+    overflow: hidden;
+}
+.w1278{
+    width: 1278px;
+    margin: 0 auto;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+/*---------------------------header-----------------------*/
+.header{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 30px 0;
+    z-index: 998;
+}
+.header .logo{
+    margin-left: 60px;
+}
+.header .logo img{
+    width: 96px;
+    height: 22px;
+}
+.header .nav{
+    float: right;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-right: 60px;
+}
+.header .nav li{
+    float: left;
+    line-height: 22px;
+    margin-left: 30px;
+    text-align: center;
+
+}
+.header .nav li a{
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+.header.active .nav li a{
+    color: #393939;
+    -webkit-transition: all .3s ease-in-out;
+  	transition: all .3s ease-in-out;
+}
+.header .menu{
+    margin-left: 30px;
+    padding-left: 20px;
+    border-left: solid 1px #fff;
+}
+.header.active .menu{
+    border-left: solid 1px #393939;
+}
+.header .menu .email{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 14px;
+    margin-right: 14px;
+    background: url('../images/icons.png') no-repeat 0 0;
+}
+.header .menu .tel{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url('../images/icons.png') no-repeat 0 -18px;
+}
+.header.active .email{
+    background: url('../images/icons.png') no-repeat -21px 0;
+}
+.header.active .tel{
+    background: url('../images/icons.png') no-repeat -21px -18px;
+}
+.header .menu .tel a{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.header .menu .tel a img{
+    display: none;
+}
+/*---------------------------footer-----------------------*/
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0 30px;
+    height: auto;
+    z-index: 12;
+}
+.footer .clearfix{
+    padding: 50px 0 20px;
+}
+.footer .link h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #6f6f6f;
+    margin-bottom: 20px;
+}
+.footer .link span{
+    display: block;
+}
+.footer .link span a{
+    font-size: 12px;
+    color: #6f6f6f;
+    margin-right: 50px;
+}
+.footer .copyright{
+    margin-top: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+.footer .copyright a{
+    margin-left: 10px;
+    color: #fff;
+}

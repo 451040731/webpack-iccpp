@@ -1,37 +1,85 @@
-# webpack-iccpp
+# Boostrap + Webpack + JQuery Boilerplate
 
-#### 介绍
-webpack企业单页官网
+> Build landing page with **Boostrap** and **jQuery** is so easy.
 
-#### 软件架构
-软件架构说明
+<a target="_blank" href="https://opensource.org/licenses/MIT" title="License: MIT">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg">
+</a>
+<a href="#badge">
+  <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg">
+</a>
+<a target="_blank" href="http://makeapullrequest.com" title="PRs Welcome"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
 
+## Why ?
 
-#### 安装教程
+React is awesome, and I use it everyday.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+However, not each project needs such a complicated library. jQuery and bootstrap are good enough.
 
-#### 使用说明
+Hence, this repo is suitable for simple projects.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## About DOM manipulation, all you need is...
 
-#### 参与贡献
+#### 🤩 jQuery
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+#### ❌ No React
 
+#### ❌ No Vue
 
-#### 码云特技
+#### ❌ No Angular
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## About CSS, all you need is...
+
+#### 🤩 Bootstrap + CSS
+
+#### ❌ No CSS Modules
+
+#### ❌ No styled-components
+
+## Features
+
+- **Bootstrap** and **jQuery** installed
+- Hot Module Replacement (**HMR**)
+- Support **ES6** Syntax (**Babel 7**)
+- **ESLint** + **Prettier** = **Neat Coding Style**
+- Webpack production building (**code splitting**, **cache**, **lazy-loading** and [**Terser**](https://github.com/terser-js/terser))
+
+## Download and Install
+
+Let's go!
+
+```
+$ git clone https://github.com/xxhomey19/bootstrap-webpack-jquery-boilerplate.git
+$ cd bootstrap-webpack-jquery-boilerplate
+$ yarn // or npm install
+```
+
+## Development
+
+Run development page on **localhost:8080**
+
+```
+$ npm run dev
+```
+
+## Build
+
+Build for production.
+
+```
+$ npm run build
+```
+
+## Deploy
+
+Deploy to `gh-pages` branch on GitHub.
+
+**[DEMO](https://xxhomey19.github.io/bootstrap-webpack-jquery-boilerplate/)**
+
+```
+$ npm run deploy
+```
+
+## License
+
+MIT © [xxhomey19](https://github.com/xxhomey19)
